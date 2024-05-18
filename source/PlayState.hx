@@ -4946,6 +4946,24 @@ class PlayState extends MusicBeatState
 
 		if(curStep == lastStepHit) {
 			return;
+               //esta wea es pa la música también 
+		if (curStep == 1)
+			{
+				FlxTween.tween(songinfo, {x: 0}, 2.6, {ease: FlxEase.expoOut});
+			}
+		
+		if (curStep == 32)
+			{
+				FlxTween.tween(songinfo, {x: -500}, 2.6, {
+					ease: FlxEase.expoIn,
+					onComplete: function(twn:FlxTween)
+					{
+						songinfo.alpha = 0;
+					}
+				});
+			}
+
+			
 		}
 
 		lastStepHit = curStep;
