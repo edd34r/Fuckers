@@ -1116,8 +1116,13 @@ class PlayState extends MusicBeatState
 		add(healthBarOV);
 	
 		if(ClientPrefs.downScroll) healthBarOV.y = 0.11 * FlxG.height;
-
-
+	
+	        songinfo = new AttachedSprite('song/song-' + curSong);
+		songinfo.scrollFactor.set();
+		songinfo.visible = !ClientPrefs.hideHud;
+		songinfo.x -= 500;
+		add(songinfo);
+	
 		iconP1 = new HealthIcon(boyfriend.healthIcon, true);
 		iconP1.y = healthBar.y - 75;
 		iconP1.visible = !ClientPrefs.hideHud;
