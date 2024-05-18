@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="dancefloor_virus.png">
+	<!-- Created with Adobe Animate version 18.0.1.115 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="floora0000" x="0" y="0" width="2880" height="1980"/>
+	<SubTexture name="floora0001" x="0" y="0" width="2880" height="1980"/>
+	<SubTexture name="floora0002" x="2882" y="0" width="2880" height="1980"/>
+	<SubTexture name="floora0003" x="0" y="1982" width="2880" height="1980"/>
+	<SubTexture name="floora0004" x="2882" y="1982" width="2880" height="1980"/>
+	<SubTexture name="floora0005" x="0" y="3964" width="2880" height="1980"/>
+</TextureAtlas>
