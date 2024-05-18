@@ -173,6 +173,8 @@ class PlayState extends MusicBeatState
 	private static var prevCamFollow:FlxPoint;
 	private static var prevCamFollowPos:FlxObject;
 
+	//esta wea es pa la cancione
+        var songinfo:FlxSprite;
 	public var strumLineNotes:FlxTypedGroup<StrumNote>;
 	public var opponentStrums:FlxTypedGroup<StrumNote>;
 	public var playerStrums:FlxTypedGroup<StrumNote>;
